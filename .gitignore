@@ -1,6 +1,14 @@
 *.swp
-target
+target/**
+server/target/
+taskqueueprocessor/target
+web/target/classes
+web/target/test-classes
 .metadata
+!./web/target/unpack/resources/.gitignore
+!web/target/unpack/resources/migration/.gitignore
+!web/target/unpack/resources/schema/.gitignore
+!web/target/unpack/resources/scripts/gitignore
 .metadata/.log
 .DS_Store
 Thumbs.db
